@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta name="theme-color" content="#3eaf7c"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2083/2083213.png"><title>Архитектура высоконагруженных приложений</title><meta name="description" content="">
+    <link rel="preload" href="/chappel/assets/style-BkzGgpeU.css" as="style"><link rel="stylesheet" href="/chappel/assets/style-BkzGgpeU.css">
+    <link rel="modulepreload" href="/chappel/assets/app-BS07J1pf.js"><link rel="modulepreload" href="/chappel/assets/404.html-BbNPuLuE.js">
+    <link rel="prefetch" href="/chappel/assets/index.html-CRZey6ev.js" as="script"><link rel="prefetch" href="/chappel/assets/index.html-CqNjgXNr.js" as="script"><link rel="prefetch" href="/chappel/assets/index.html-5CPi7qrW.js" as="script"><link rel="prefetch" href="/chappel/assets/glossary.html-g8iPApGL.js" as="script"><link rel="prefetch" href="/chappel/assets/materials.html-ORPT9usd.js" as="script"><link rel="prefetch" href="/chappel/assets/1.html-BLUVmZmF.js" as="script"><link rel="prefetch" href="/chappel/assets/2.html-DKv84piR.js" as="script"><link rel="prefetch" href="/chappel/assets/3.html-BxBNo_K6.js" as="script"><link rel="prefetch" href="/chappel/assets/4.html-DJHRHmQp.js" as="script"><link rel="prefetch" href="/chappel/assets/5.html-XsSpTL-O.js" as="script"><link rel="prefetch" href="/chappel/assets/6.html-CVapum-o.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-2099bcbb><main class="page" data-v-2099bcbb><div vp-content data-v-2099bcbb><h1 data-v-2099bcbb>404</h1><blockquote data-v-2099bcbb>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/chappel/" data-v-2099bcbb>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/chappel/assets/app-BS07J1pf.js" defer></script>
+  </body>
+</html>
